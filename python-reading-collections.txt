@@ -23,3 +23,6 @@ On sklearn EstimatorBase base class the reason behind
 http://scikit-learn.org/stable/modules/generated/sklearn.base.BaseEstimator.html
 
 https://stackoverflow.com/questions/23174964/how-to-gridsearch-over-transform-arguments-within-a-pipeline-in-scikit-learn
+
+XGBOOST
+https://arxiv.org/pdf/1603.02754.pdf
