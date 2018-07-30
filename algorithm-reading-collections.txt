@@ -1,5 +1,6 @@
-approximated k-nearest neighbour
-http://mccormickml.com/2017/10/13/product-quantizer-tutorial-part-1/
+<title>approximated k-nearest neighbour</title>
+<b>http://mccormickml.com/2017/10/13/product-quantizer-tutorial-part-1/</b>
+<body>
 Summary:
 Partition step:
 step 1: partition (cluster) data with k-means into K clusters
@@ -19,3 +20,14 @@ Note the Approximation step is independent of Partition step.
 5. approximate distance between query and data point with the new distance. 
 
 6. apply this with data within each cluster.
+</body>
+
+<title>XGBoost</title>
+<b>https://arxiv.org/pdf/1603.02754.pdf</b>
+<body>
+
+</body>
+
+
+
+
