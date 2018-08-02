@@ -4,8 +4,8 @@ On Python magic methods (double unders, dunders)
 https://rszalski.github.io/magicmethods/
 
 
-On Python descriptors and properties (which is an implementation of descriptors)
-https://www.blog.pythonlibrary.org/2016/06/10/python-201-what-are-descriptors/
+-On Python descriptors and properties (which is an implementation of descriptors)
+   -https://www.blog.pythonlibrary.org/2016/06/10/python-201-what-are-descriptors/
 
 
 
@@ -19,11 +19,11 @@ https://www.programcreek.com/python/example/2937/inspect.getsourcelines
 
 
 
-On sklearn EstimatorBase base class the reason behind 
+-On sklearn EstimatorBase base class the reason behind 
 "All estimators should specify all the parameters that can be set at the class level in their __init__ as explicit keyword arguments (no *args or **kwargs)."
-http://scikit-learn.org/stable/modules/generated/sklearn.base.BaseEstimator.html
+  #http://scikit-learn.org/stable/modules/generated/sklearn.base.BaseEstimator.html
 
-https://stackoverflow.com/questions/23174964/how-to-gridsearch-over-transform-arguments-within-a-pipeline-in-scikit-learn
+  #https://stackoverflow.com/questions/23174964/how-to-gridsearch-over-transform-arguments-within-a-pipeline-in-scikit-learn
 
 XGBOOST
 https://arxiv.org/pdf/1603.02754.pdf
