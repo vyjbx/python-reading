@@ -3,7 +3,8 @@ Algorithm Collections
 ##########
 
 1. approximated k-nearest neighbour
-    [post]_http://mccormickml.com/2017/10/13/product-quantizer-tutorial-part-1/
+    [post]_
+    http://mccormickml.com/2017/10/13/product-quantizer-tutorial-part-1/
 
 	Summary:
 	Partition step:
@@ -27,7 +28,8 @@ Algorithm Collections
 
 
 2. XGBoost
-    [paper]_https://arxiv.org/pdf/1603.02754.pdf
+    [paper]_
+    https://arxiv.org/pdf/1603.02754.pdf
 
 
 
