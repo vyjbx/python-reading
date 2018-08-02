@@ -11,6 +11,8 @@ def func(*args, **kwargs)
 as @add_print is part of function source code. It needs to be removed in the return function. There are other and better ways to copy the signature and meta data.
 
 environment version is python 2.7
+
+All these can be done using the **decorator** module, which has been there for 10+ years. Do NOT try to reinvent the wheels.
 """
 
 import re, inspect 
