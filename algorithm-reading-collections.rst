@@ -3,8 +3,8 @@ Algorithm Collections
 ##########
 
 1. approximated k-nearest neighbour
-    [Approximated KNN]_
-    ..[Approximated KNN] http://mccormickml.com/2017/10/13/product-quantizer-tutorial-part-1/
+    [Approximated_KNN]_
+    ..[Approximated_KNN] http://mccormickml.com/2017/10/13/product-quantizer-tutorial-part-1/
 
 	Summary:
 	Partition step:
@@ -28,7 +28,7 @@ Algorithm Collections
 
 
 2. XGBoost
-    [xgboot]_
+    [xgboost]_
     ..[xgboost] https://arxiv.org/pdf/1603.02754.pdf
 
 
