@@ -1,6 +1,7 @@
+##########
 On Python magic methods (double unders, dunders)
+##########
 https://rszalski.github.io/magicmethods/
-
 
 
 On Python descriptors and properties (which is an implementation of descriptors)
@@ -27,5 +28,13 @@ https://stackoverflow.com/questions/23174964/how-to-gridsearch-over-transform-ar
 XGBOOST
 https://arxiv.org/pdf/1603.02754.pdf
 
+##########
 python signature
+##########
 https://emptysqua.re/blog/copying-a-python-functions-signature/
+
+##########
+python command line arguments parsing libraries
+##########
+https://realpython.com/comparing-python-command-line-parsing-libraries-argparse-docopt-click/
+
