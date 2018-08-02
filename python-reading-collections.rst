@@ -13,6 +13,7 @@ Collected useful posts about Python
 
 4. On inspect.getsourcelines to modify a function
     https://www.programcreek.com/python/example/2937/inspect.getsourcelines
+    ``eval() and exec()`` can be used to dynamically change a function. But remember all these can be done using the **decorator** module. Do not try to reinvent the wheels.
 
 5. On sklearn EstimatorBase base class the reason behind 
     ``"All estimators should specify all the parameters that can be set at the class level in their __init__ as explicit keyword arguments (no *args or **kwargs)."``
