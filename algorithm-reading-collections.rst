@@ -2,9 +2,7 @@
 Algorithm Collections
 ##########
 
-1. approximated k-nearest neighbour
-    [Approximated_KNN]_
-    ..[Approximated_KNN] http://mccormickml.com/2017/10/13/product-quantizer-tutorial-part-1/
+1. approximated k-nearest neighbour[Approximated_KNN]_
 
 	Summary:
 	Partition step:
@@ -27,9 +25,11 @@ Algorithm Collections
 	6. apply this with data within each cluster.
 
 
-2. XGBoost
-    [xgboost]_
-    ..[xgboost] https://arxiv.org/pdf/1603.02754.pdf
+2. XGBoost[xgboost]_
+
+
+..[Approximated_KNN] http://mccormickml.com/2017/10/13/product-quantizer-tutorial-part-1/
+..[xgboost] https://arxiv.org/pdf/1603.02754.pdf
 
 
 
