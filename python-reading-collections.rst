@@ -40,3 +40,9 @@ Collected useful posts about Python
         3. <type 'type'> is an instance of itself.
         4. <type 'type'> is a subclass of <type 'object'>.``
 
+        .. image:: ./media/python_metaclass.png
+
+
+        .. image:: python_metaclass.png
+           :target: ./media/python_metaclass.png
+
