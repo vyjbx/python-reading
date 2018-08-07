@@ -35,4 +35,8 @@ Collected useful posts about Python
 #. python type, object, class, instance: difference
     https://eli.thegreenplace.net/2012/03/30/python-objects-types-classes-and-instances-a-glossary
     http://www.cs.utexas.edu/~cannata/cs345/Class%20Notes/15%20Python%20Types%20and%20Objects.pdf
+        ``1. <type 'object'> is an instance of <type 'type'>.
+        2. <type 'object'> is a subclass of no object.
+        3. <type 'type'> is an instance of itself.
+        4. <type 'type'> is a subclass of <type 'object'>.``
 
