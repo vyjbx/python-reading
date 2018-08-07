@@ -32,3 +32,6 @@ Collected useful posts about Python
 #. priority queue
     http://www.bogotobogo.com/python/python_PriorityQueue_heapq_Data_Structure.php
 
+#. python type, object, class, instance: difference
+    https://eli.thegreenplace.net/2012/03/30/python-objects-types-classes-and-instances-a-glossary
+
