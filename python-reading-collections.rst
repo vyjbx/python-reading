@@ -41,8 +41,6 @@ Collected useful posts about Python
         4. <type 'type'> is a subclass of <type 'object'>.``
 
         .. image:: ./media/python_metaclass.png
+           :width: 300px
 
-
-        .. image:: python_metaclass.png
-           :target: ./media/python_metaclass.png
 
