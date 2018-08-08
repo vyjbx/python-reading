@@ -8,14 +8,16 @@ Collected useful posts about Python
 2. On Python descriptors and properties (which is an implementation of descriptors) 
     https://www.blog.pythonlibrary.org/2016/06/10/python-201-what-are-descriptors/ 
 
-3. On Python metaclass 
+#. On Python metaclass 
     https://blog.ionelmc.ro/2015/02/09/understanding-python-metaclasses/#object-attribute-lookup
+    https://www.geeksforgeeks.org/metaprogramming-metaclasses-python/
+        `Metaclasses are deeper magic that 99% of users should never worry about. If you wonder whether you need them, you don’t (the people who actually need them know with certainty that they need them, and don’t need an explanation about why).`
 
-4. On inspect.getsourcelines to modify a function
+#. On inspect.getsourcelines to modify a function
     https://www.programcreek.com/python/example/2937/inspect.getsourcelines
     ``eval() and exec()`` can be used to dynamically change a function. But remember all these can be done using the **decorator** module. Do not try to reinvent the wheels.
 
-5. On sklearn EstimatorBase base class the reason behind 
+#. On sklearn EstimatorBase base class the reason behind 
     ``"All estimators should specify all the parameters that can be set at the class level in their __init__ as explicit keyword arguments (no *args or **kwargs)."``
     http://scikit-learn.org/stable/modules/generated/sklearn.base.BaseEstimator.html
     https://stackoverflow.com/questions/23174964/how-to-gridsearch-over-transform-arguments-within-a-pipeline-in-scikit-learn
@@ -42,5 +44,8 @@ Collected useful posts about Python
 
         .. image:: ./media/python_metaclass.png
            :width: 150px
+
+#. difference between `vars` vs. `dir`
+    ``vars(cls) is like local() inside cls, returns cls.__dict__, while dir(cls) returns everything in the namespace, cls.__dict__ plus class methods/attributes plus its ancestor's dir()``  
 
 
