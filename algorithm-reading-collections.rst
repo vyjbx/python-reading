@@ -32,6 +32,8 @@ Algorithm Collections
 #. Comparison of different ML frameworks: R vs. Python (scikit-learn) vs. H2O(3) vs. XGBoost vs. Spark vs. Wovpal Wabbit
     https://github.com/szilard/benchm-ml#summary 
 
+#. H2O Python API quick intro
+    https://www.h2o.ai/wp-content/uploads/2018/01/Python-BOOKLET.pdf
 
 .. [Approximated_KNN] http://mccormickml.com/2017/10/13/product-quantizer-tutorial-part-1/
 .. [xgboost] https://arxiv.org/pdf/1603.02754.pdf

@@ -12,6 +12,7 @@ Collected useful posts about Python
     https://blog.ionelmc.ro/2015/02/09/understanding-python-metaclasses/#object-attribute-lookup
     https://www.geeksforgeeks.org/metaprogramming-metaclasses-python/
         `Metaclasses are deeper magic that 99% of users should never worry about. If you wonder whether you need them, you don’t (the people who actually need them know with certainty that they need them, and don’t need an explanation about why).`
+    http://www.vrplumber.com/programming/metaclasses.pdf
 
 #. On inspect.getsourcelines to modify a function
     https://www.programcreek.com/python/example/2937/inspect.getsourcelines
