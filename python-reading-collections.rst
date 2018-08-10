@@ -50,3 +50,26 @@ Collected useful posts about Python
     ``vars(cls) is like local() inside cls, returns cls.__dict__, while dir(cls) returns everything in the namespace, cls.__dict__ plus class methods/attributes plus its ancestor's dir()``  
 
 
+
++-------------------+
+| This test table   |
++=========+====+====+
+|user_id  |cls | num|
+|         |[$] | [#]|
++---------+----+----+
+| Python  | 3  | 4  |
++---------+----+----+
+| R       |  5 | 4  |
++---------+----+----+
+
+.. code-block:: python
+    class metaclass(type):
+        def __call__(self, *args, **kwargs):
+            return super(metaclass, self).__call__(*args, **kwargs) 
+
+
+
+
+
+
+
