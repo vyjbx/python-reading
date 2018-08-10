@@ -62,15 +62,24 @@ Collected useful posts about Python
 | R       |  5 | 4  |
 +---------+----+----+
 
-.. code-block:: c
-  class metaclass(type):
-      def __call__(self, *args, **kwargs):
-          return super(metaclass, self).__call__(*args, **kwargs) 
+.. code-block:: python
+
+   class metaclass1(type):
+       def __call__(self, *args, **kwargs):
+           return super(metaclass, self).__call__(*args, **kwargs) 
+
+.. highlight:: python
+
+   class metaclass2(type):
+       def __call__(self, *args, **kwargs):
+           return super(metaclass, self).__call__(*args, **kwargs) 
+
 
 ::
-  class metaclass(type):
-      def __call__(self, *args, **kwargs):
-          return super(metaclass, self).__call__(*args, **kwargs) 
+
+    class metaclass3(type):
+        def __call__(self, *args, **kwargs):
+            return super(metaclass, self).__call__(*args, **kwargs) 
 
 
 
