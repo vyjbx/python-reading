@@ -51,6 +51,7 @@ Collected useful posts about Python
 
 
 .. code-block:: python
+
     class metaclass1(type):
         def __call__(self, *args, **kwargs):
             return super(metaclass, self).__call__(*args, **kwargs) 
