@@ -30,6 +30,7 @@ Algorithm Collections
     [xgboost]_
 
 #. Comparison of different ML frameworks: R vs. Python (scikit-learn) vs. H2O(3) vs. XGBoost vs. Spark vs. Wovpal Wabbit
+    However, this is not a fair comparison for Spark. In addition to the version problem, the true power of Spark is as distributed computatonal framework. It scales up, instead of trying to optimize on limited resource.
     https://github.com/szilard/benchm-ml#summary 
 
 		+-------------------------------------+
@@ -56,6 +57,7 @@ Algorithm Collections
 
 .. [Approximated_KNN] http://mccormickml.com/2017/10/13/product-quantizer-tutorial-part-1/
 .. [xgboost] https://arxiv.org/pdf/1603.02754.pdf
+
 
 
 
