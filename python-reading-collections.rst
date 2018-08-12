@@ -49,6 +49,8 @@ Collected useful posts about Python
 #. difference between `vars` vs. `dir`
     ``vars(cls) is like local() inside cls, returns cls.__dict__, while dir(cls) returns everything in the namespace, cls.__dict__ plus class methods/attributes plus its ancestor's dir()``  
 
+#. on creating singleton in Python... in addition to a class instance counter (now it seems ugly), other methods like class decorator, class decorator returning a class, a base class that defines singleton property (override __new__), and a metaclass (override __call__).  
+    https://stackoverflow.com/questions/6760685/creating-a-singleton-in-python
 
 .. code-block:: python
 
