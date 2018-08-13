@@ -51,6 +51,38 @@ Collected useful posts about Python
 
 #. on creating singleton in Python... in addition to a class instance counter (now it seems ugly), other methods like class decorator, class decorator returning a class, a base class that defines singleton property (override __new__), and a metaclass (override __call__).  
     https://stackoverflow.com/questions/6760685/creating-a-singleton-in-python
+    It is worth pointing out here, that are differences in these methods. What does a Singleton mean here? There is only one instance could be created, and/or the instance is **static**? With a method such as using a singleton class, which separates the creation `__new__` and initialization `__init__` of a class, there will be **one** and only **one** instance (with the same `id(object)` storage location for the object), but the same instance will be initialized again with different parameters. For example
+    .. code-block: python
+
+        class Singleton(object):
+            _instance = None
+            def __new__(cls, *args, **kwargs):
+                if cls._instance is None:
+                    cls._instance = super(Singleton, cls).__new__(cls)
+                return cls._instance
+
+        class A(Singleton):
+            def __init__(self, name):
+                self.name = name
+
+        a = A('tom')
+        print(id(a), a.name)
+
+        b = A('Jack')
+        print(id(b), b.name)
+
+        print(id(a), a.name)
+
+    The output would be
+    ``
+    >>>140195539441984 tom
+    >>>140195539441984 jack
+    >>>140195539441984 jack
+
+    ``
+
+    While using a metaclass (override `__call__`), the method will cache the first ever created instance, and returns the same instance ever after. The new parameters will have no effect since it passes `__init__` completely.
+    
 
 .. code-block:: python
 
