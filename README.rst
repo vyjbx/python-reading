@@ -12,6 +12,8 @@ Reading Material
 
 *book-list.rst* has the books worth reading. All fun books.
 
+*tools.rst* gives the useful tools making life (much) easier.
+
 
 
 ~~~~~~~~~~~~~~~~~~~

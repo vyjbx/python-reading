@@ -7,4 +7,5 @@ A collection of books, mostly about, but not limited to CS, math, and statistic
 
 2. **Functional Programming Simplified**, by *Alvin Alexander*
 
-3.  
+3. **Algorithms**, by *Dasgupata, Papadimitriou, and Vazirani*
+    http://algorithmics.lsi.upc.edu/docs/Dasgupta-Papadimitriou-Vazirani.pdf 
