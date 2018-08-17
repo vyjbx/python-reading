@@ -130,7 +130,13 @@ Collected useful posts about Python
     .. image:: ./media/python_attribute_search.png
         :width: 400px
 
-    **What if, there is no ``__dict__`` in a class?** Such as a *dict* object. What is the search rule here? Here is an example, from ``sklearn.utils`` there is ``Bunch`` type. In such case, you need to override ``__setattr__`` and ``__get_attr__`` to modify the attribute access behavior explicitly.
+    
+    Summary:
+        1. There are cases when __class__ is absent;
+        2. The stated order is only for **reading** attributes, not **writing** attributes.
+
+
+    **1. What if, there is no ``__dict__`` in a class?** Such as a *dict* object. What is the search rule here? Here is an example, from ``sklearn.utils`` there is ``Bunch`` type. In such case, you need to override ``__setattr__`` and ``__get_attr__`` to modify the attribute access behavior explicitly.
 
     .. code-block:: python
 
@@ -179,16 +185,18 @@ Collected useful posts about Python
 
     ``TypeError: vars() argument must have __dict__ attribute``
 
-
     An explanation to ``dictproxy``, which is the type of ``cls.__dict__`` 
     https://stackoverflow.com/questions/25440694/whats-the-purpose-of-dictproxy
     
     class ``__dict__`` is read-only to 1) ensure python interpreter optimization, and 2) for safety; object ``__dict__`` can have read, write, and delete access. Once deleted, it will be regenerated on the next assignment. 
 
+    **2. when both descriptor and __setattr__ are implemented in an object**,  the ``descriptor().__set__`` is **never** called. See the following.
 
+    https://stackoverflow.com/questions/9161302/using-both-setattr-and-descriptors-for-a-python-class
 
-.. role:: readtext
-This color is read :readtext:`hahaha lalala`
+    There are a few workarounds. 
+        1) Use a metaclass and a function decorator. Use the decorator to triage attribute write calls, if descriptor, then call the ``object.__setattr__(self, key, val)``, which will call the descriptor ``__set__``; if not, then call ``__setattr__``. Override metaclass ``__new__`` to wrap the ``__setattr__`` method, and put descriptor name in a hashmap (if ``hasattr(object, '__get__')``).
+        2) Use ``if key in self.__class__.__dict__ and hasattr(self.__class__.__dict__, '__get__'):``. I would prefer 1) as it is something can be inherited, and can be changed easily on the metaclass level.
 
 
 
