@@ -124,6 +124,72 @@ Collected useful posts about Python
 
     The second parameter `jack` had no effect at all.
 
+#. Python **attributes**, how the object searchs for and accesses attributes. This is a good reading and explains a lot of things! **Python is all about attributes.**
+    https://codesachin.wordpress.com/2016/06/09/the-magic-behind-attribute-access-in-python/
+
+    .. image:: ./media/python_attribute_search.png
+        :width: 400px
+
+    **What if, there is no ``__dict__`` in a class?** Such as a *dict* object. What is the search rule here? Here is an example, from ``sklearn.utils`` there is ``Bunch`` type. In such case, you need to override ``__setattr__`` and ``__get_attr__`` to modify the attribute access behavior explicitly.
+
+    .. code-block:: python
+
+        class Bunch(dict):
+            def __init__(self, **kwargs):
+                super(Bunch, self).__init__(kwargs)
+            
+            def __setattr__(self, key, val):
+                self[key] = val
+
+            def __getattr__(self, key):
+                try:
+                    return self[key]
+                except KeyError:
+                    raise AttributeError
+
+    
+    If we do 
+
+    .. code-block:: python
+
+        B = Bunch(**{'a'=4, 'b'=3})
+
+    We can have a dict with attributes
+
+    .. code-block:: python
+
+        >>>B.a
+        >>>4
+        >>>B.a = 10
+        >>>B.a
+        >>>10
+        
+    Another handy, but could be **dangerous** way. This will lead to memory leak in early versions of python. 
+
+    .. code-block:: python
+
+        class Bunch2(dict):
+            def __init__(self, **kwargs):
+                super(Bunch2, self).__init__(kwargs)
+                self.__dict__ = self
+
+    
+    
+    Also, notice, since ``dict`` does not have ``__dict__`` attribute, if you do ``vars(dict_obj)``, you will be greeted by a ``TypeError``
+
+    ``TypeError: vars() argument must have __dict__ attribute``
+
+
+    An explanation to ``dictproxy``, which is the type of ``cls.__dict__`` 
+    https://stackoverflow.com/questions/25440694/whats-the-purpose-of-dictproxy
+    
+    class ``__dict__`` is read-only to 1) ensure python interpreter optimization, and 2) for safety; object ``__dict__`` can have read, write, and delete access. Once deleted, it will be regenerated on the next assignment. 
+
+
+
+.. role:: readtext
+This color is read :readtext:`hahaha lalala`
+
 
 
 
