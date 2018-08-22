@@ -14,6 +14,8 @@ Reading Material
 
 *tools.rst* gives the useful tools making life (much) easier.
 
+*blogs.rst* keeps all the good blogers and blogs.
+
 
 
 ~~~~~~~~~~~~~~~~~~~
