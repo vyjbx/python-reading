@@ -21,3 +21,8 @@ Tools that make your life easier
 #. *git* explained. This website gives the best explanation on git. Everything is a **DAG**.
 
     https://git-scm.com/docs
+
+
+#. Can you access mac video in docker container? Short answer: not possible directly. What is the alternative? Stream the video to container.
+
+    https://apple.stackexchange.com/questions/265281/using-webcam-connected-to-macbook-inside-a-docker-container 
