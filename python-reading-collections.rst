@@ -198,6 +198,22 @@ Collected useful posts about Python
         1) Use a metaclass and a function decorator. Use the decorator to triage attribute write calls, if descriptor, then call the ``object.__setattr__(self, key, val)``, which will call the descriptor ``__set__``; if not, then call ``__setattr__``. Override metaclass ``__new__`` to wrap the ``__setattr__`` method, and put descriptor name in a hashmap (if ``hasattr(object, '__get__')``).
         2) Use ``if key in self.__class__.__dict__ and hasattr(self.__class__.__dict__, '__get__'):``. I would prefer 1) as it is something can be inherited, and can be changed easily on the metaclass level.
 
+#. Good tutorial on opencv Python API cv2
+
+    https://people.revoledu.com/kardi/tutorial/Python/Video+Analysis+using+OpenCV-Python.html
+
+#. Best on python **relative** import
+
+    https://stackoverflow.com/questions/14132789/relative-imports-for-the-billionth-time
+
+    ``"There are two ways to load a Python file: as the top-level script, or as a module. A file is loaded as the top-level script if you execute it directly, for instance by typing python myfile.py on the command line. It is loaded as a module if you do python -m myfile, or if it is loaded when an import statement is encountered inside some other file. There can only be one top-level script at a time; the top-level script is the Python file you ran to start things off."``
+
+    ``"However, if your module's name is __main__, it is not considered to be in a package. Its name has no dots, and therefore you cannot use from .. import statements inside it. If you try to do so, you will get the "relative-import in non-package" error."`` 
+
+    ``"Two solutions:``
+        ``1. If you really do want to run moduleX directly, but you still want it to be considered part of a package, you can do python -m package.subpackage1.moduleX. The -m tells Python to load it as a module, not as the top-level script.``
+        ``2. Or perhaps you don't actually want to run moduleX, you just want to run some other script, say myfile.py, that uses functions inside moduleX. If that is the case, put myfile.py somewhere else --- not inside the package directory -- and run it. If inside myfile.py you do things like from package.moduleA import spam, it will work fine."``
+
 
 
 
