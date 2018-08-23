@@ -26,3 +26,9 @@ Tools that make your life easier
 #. Can you access mac video in docker container? Short answer: not possible directly. What is the alternative? Stream the video to container.
 
     https://apple.stackexchange.com/questions/265281/using-webcam-connected-to-macbook-inside-a-docker-container 
+
+#. ``tree``
+
+    ''>>>apt-get install tree``
+    ``>>>tree .``
+    ``>>>man tree``
