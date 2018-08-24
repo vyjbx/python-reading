@@ -22,6 +22,10 @@ Tools that make your life easier
 
     https://git-scm.com/docs
 
+    Another source to look at git under the hood: learning by understanding how it functions, not only the APIs. This is the right way of learning something.
+
+        http://merrigrove.blogspot.com/2014/02/why-heck-is-git-so-hard-places-model-ok.html
+
 
 #. Can you access mac video in docker container? Short answer: not possible directly. What is the alternative? Stream the video to container.
 
@@ -32,3 +36,18 @@ Tools that make your life easier
     ''>>>apt-get install tree``
     ``>>>tree .``
     ``>>>man tree``
+
+#. docker image vs container explained
+
+    http://merrigrove.blogspot.com/2015/10/visualizing-docker-containers-and-images.html
+
+	.. image:: ./media/docker-commands.png
+
+	``docker underhood, not docker all. docker client side is not in this graph``
+
+
+    docker stop (SIGTERM) vs. docker kill (SIGKILL)
+
+        https://major.io/2010/03/18/sigterm-vs-sigkill/
+
+        ``In fact, the process isn’t even made aware of the SIGKILL signal since the signal goes straight to the kernel init. At that point, init will stop the process. The process never gets the opportunity to catch the signal and act on it.``
