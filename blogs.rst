@@ -25,3 +25,9 @@ All the good blogs and bloggers
     Used to be a lot of good material. Stopped at 2016 after Tesla hired him.
 
     http://karpathy.github.io/ 
+
+#. Danial Eklund
+
+    A lot of things, Haskell, Docker, Linux, et..
+
+    http://merrigrove.blogspot.com/
