@@ -26,6 +26,10 @@ Tools that make your life easier
 
         http://merrigrove.blogspot.com/2014/02/why-heck-is-git-so-hard-places-model-ok.html
 
+    A comparison of git vs. svn.
+
+        https://stackoverflow.com/questions/871/why-is-git-better-than-subversion
+
 
 #. Can you access mac video in docker container? Short answer: not possible directly. What is the alternative? Stream the video to container.
 
@@ -51,3 +55,13 @@ Tools that make your life easier
         https://major.io/2010/03/18/sigterm-vs-sigkill/
 
         ``In fact, the process isn’t even made aware of the SIGKILL signal since the signal goes straight to the kernel init. At that point, init will stop the process. The process never gets the opportunity to catch the signal and act on it.``
+
+#. AWS AMI linux
+
+    https://docs.aws.amazon.com/AmazonECR/latest/userguide/amazon_linux_container_image.html
+
+    1. pull Amazon linux image from docker hub
+
+    ``docker pull amazonlinux``
+
+    ``docker run -it amazonlinux:latest /bin/bash/``
