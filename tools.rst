@@ -66,6 +66,8 @@ Tools that make your life easier
 
     ``docker run -it amazonlinux:latest /bin/bash/``
 
+    It is a CentOS/RH descendent instead of Debian. Use ``yum`` instead of ``apt`` or ``apt-get``, and ``which yum`` will fail because ``which`` is not defined :).
+
 #. Python test modules (almost all of them)
 
     https://docs.python-guide.org/writing/tests/
