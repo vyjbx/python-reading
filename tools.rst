@@ -65,3 +65,9 @@ Tools that make your life easier
     ``docker pull amazonlinux``
 
     ``docker run -it amazonlinux:latest /bin/bash/``
+
+#. Python test modules (almost all of them)
+
+    https://docs.python-guide.org/writing/tests/
+
+
