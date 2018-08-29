@@ -214,6 +214,10 @@ Collected useful posts about Python
         ``1. If you really do want to run moduleX directly, but you still want it to be considered part of a package, you can do python -m package.subpackage1.moduleX. The -m tells Python to load it as a module, not as the top-level script.``
         ``2. Or perhaps you don't actually want to run moduleX, you just want to run some other script, say myfile.py, that uses functions inside moduleX. If that is the case, put myfile.py somewhere else --- not inside the package directory -- and run it. If inside myfile.py you do things like from package.moduleA import spam, it will work fine."``
 
+#. python c extensions
+
+    https://dfm.io/posts/python-c-extensions/
+    https://medium.com/@joshua.massover/python-c-extension-example-cef86ffab4ed
 
 
 
