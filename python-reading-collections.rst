@@ -220,6 +220,11 @@ Collected useful posts about Python
     https://medium.com/@joshua.massover/python-c-extension-example-cef86ffab4ed
 
 
+#. Python test modules (almost all of them)
+
+    https://docs.python-guide.org/writing/tests/
+
+
 
 
 
