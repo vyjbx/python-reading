@@ -30,6 +30,14 @@ Tools that make your life easier
 
         https://stackoverflow.com/questions/871/why-is-git-better-than-subversion
 
+    A **very nice** git cheat sheet
+
+        .. image:: ./media/git-cheat-sheet.png
+          :width: 600px
+
+
+        http://www.ndpsoftware.com/git-cheatsheet.html#loc=workspace 
+
 
 #. Can you access mac video in docker container? Short answer: not possible directly. What is the alternative? Stream the video to container.
 
@@ -68,8 +76,12 @@ Tools that make your life easier
 
     It is a CentOS/RH descendent instead of Debian. Use ``yum`` instead of ``apt`` or ``apt-get``, and ``which yum`` will fail because ``which`` is not defined :).
 
-#. Python test modules (almost all of them)
+#. Mesos vs YARN
 
-    https://docs.python-guide.org/writing/tests/
+    https://www.oreilly.com/ideas/a-tale-of-two-clusters-mesos-and-yarn
+
+#. Sparkling water: H2O+Spark
+
+    https://github.com/h2oai/sparkling-water/blob/master/README.rst
 
 
