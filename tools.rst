@@ -84,4 +84,8 @@ Tools that make your life easier
 
     https://github.com/h2oai/sparkling-water/blob/master/README.rst
 
-
+#. **tmux**, multiple window, session sharing
+    
+    minimal introduction to get started
+    
+    https://medium.com/actualize-network/a-minimalist-guide-to-tmux-13675fb160fa
