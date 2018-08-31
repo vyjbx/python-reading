@@ -224,6 +224,11 @@ Collected useful posts about Python
 
     https://docs.python-guide.org/writing/tests/
 
+#. Python Actor models
+
+    ``Pulsar``: http://quantmind.github.io/pulsar/design.html#actors
+    ``pykka``: https://github.com/jodal/pykka
+
 
 
 
