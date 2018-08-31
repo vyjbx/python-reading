@@ -64,6 +64,20 @@ Tools that make your life easier
 
         ``In fact, the process isn’t even made aware of the SIGKILL signal since the signal goes straight to the kernel init. At that point, init will stop the process. The process never gets the opportunity to catch the signal and act on it.``
 
+    docker ``RUN`` vs ``CMD`` vs ``ENTRYPOINT``
+
+        ``1. RUN executes commands in a new layer and creates a new image.``
+
+        ``2. CMD sets default command and/or parameters which can be overwritten from command line when **docker run**.``
+
+        ``3. ENTRYPOINT configures a container that will run as an executable, and can take parameters.``
+
+        http://goinbigdata.com/docker-run-vs-cmd-vs-entrypoint/
+
+    another docker ``CMD`` vs ``ENTRYPOINT``
+
+    https://medium.freecodecamp.org/docker-entrypoint-cmd-dockerfile-best-practices-abc591c30e21 
+
 #. AWS AMI linux
 
     https://docs.aws.amazon.com/AmazonECR/latest/userguide/amazon_linux_container_image.html
@@ -87,5 +101,5 @@ Tools that make your life easier
 #. **tmux**, multiple window, session sharing
     
     minimal introduction to get started
-    
+
     https://medium.com/actualize-network/a-minimalist-guide-to-tmux-13675fb160fa
