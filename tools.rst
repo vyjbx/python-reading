@@ -106,6 +106,10 @@ Tools that make your life easier
 
 	    http://www.johnzaccone.io/author/john/
 
+	#. docker swarm vs. kubernetes (micro-service orchestration platforms)
+
+	    https://platform9.com/blog/kubernetes-docker-swarm-compared/
+
 #. AWS AMI linux
 
     https://docs.aws.amazon.com/AmazonECR/latest/userguide/amazon_linux_container_image.html
@@ -131,3 +135,7 @@ Tools that make your life easier
     minimal introduction to get started
 
     https://medium.com/actualize-network/a-minimalist-guide-to-tmux-13675fb160fa
+
+#. NGINX introduction
+
+    https://medium.freecodecamp.org/an-introduction-to-nginx-for-developers-62179b6a458f
