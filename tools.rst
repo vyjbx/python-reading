@@ -98,6 +98,14 @@ Tools that make your life easier
 
 		https://stackoverflow.com/questions/42805750/dockerfile-cmd-shell-versus-exec-form
 
+		A bit of more details
+		
+			http://www.johnzaccone.io/entrypoint-vs-cmd-back-to-basics/
+
+	#. A few posts about docker
+
+	    http://www.johnzaccone.io/author/john/
+
 #. AWS AMI linux
 
     https://docs.aws.amazon.com/AmazonECR/latest/userguide/amazon_linux_container_image.html
