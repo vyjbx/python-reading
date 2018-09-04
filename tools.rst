@@ -102,6 +102,10 @@ Tools that make your life easier
 		
 			http://www.johnzaccone.io/entrypoint-vs-cmd-back-to-basics/
 
+		In ``shell form``, CMD is ignored when ENTRYPOINT presents; in ``exec form``, if there is no external parameters at ``docker run``, CMD fields will be attached as ENTRYPOINT parameters, otherwise CMD will be ignored and ENTRYPOINT parameter will be used.
+
+		    http://goinbigdata.com/docker-run-vs-cmd-vs-entrypoint/
+
 	#. A few posts about docker
 
 	    http://www.johnzaccone.io/author/john/
@@ -138,4 +142,22 @@ Tools that make your life easier
 
 #. NGINX introduction
 
-    https://medium.freecodecamp.org/an-introduction-to-nginx-for-developers-62179b6a458f
+    1. General introduction
+
+	    https://medium.freecodecamp.org/an-introduction-to-nginx-for-developers-62179b6a458f
+
+	2. Beginner's guide
+
+	    http://nginx.org/en/docs/beginners_guide.html
+
+	#. Beginner's introduction
+
+		https://waqarafridi.wordpress.com/2017/12/09/introduction-to-nginx/
+
+#. Spark
+
+    1. worker node dependency 
+
+        Install packages on work node by ``--py-files`` pointing to ``*.py`` or ``*.egg`` files or ``ssh`` to worker nodes one by one and do the installation, and setup ``PYSPARK_PYTHON`` path.
+
+        **There must exist a better way to provision the clusters.** 
