@@ -161,3 +161,9 @@ Tools that make your life easier
         Install packages on work node by ``--py-files`` pointing to ``*.py`` or ``*.egg`` files or ``ssh`` to worker nodes one by one and do the installation, and setup ``PYSPARK_PYTHON`` path.
 
         **There must exist a better way to provision the clusters.** 
+
+            https://blog.cloudera.com/blog/2015/09/how-to-prepare-your-apache-hadoop-cluster-for-pyspark-jobs/
+
+#. RPC vs. REST, with examples
+
+    https://blog.jscrambler.com/rpc-style-vs-rest-web-apis/
