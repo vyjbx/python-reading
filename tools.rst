@@ -167,3 +167,10 @@ Tools that make your life easier
 #. RPC vs. REST, with examples
 
     https://blog.jscrambler.com/rpc-style-vs-rest-web-apis/
+
+    
+    https://www.smashingmagazine.com/2016/09/understanding-rest-and-rpc-for-http-apis/
+
+	    ``RPC is great for actions (a collection of functions).``
+
+	    ``REST is good for modeling the resource domain with CRUD.``
