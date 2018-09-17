@@ -229,6 +229,22 @@ Collected useful posts about Python
     ``Pulsar``: http://quantmind.github.io/pulsar/design.html#actors
     ``pykka``: https://github.com/jodal/pykka
 
+#. Actors, coroutines, and such
+
+    event loop
+
+        https://tutorialedge.net/python/concurrency/asyncio-event-loops-tutorial/
+
+    Actor model
+
+        http://quantmind.github.io/pulsar/design.html#actors
+
+
+
+#. config file parser in Python (another option would be environment variables, but this is more manageable in the case ...... I'm using.)
+
+    https://www.decalage.info/python/configparser
+
 
 
 
