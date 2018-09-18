@@ -174,3 +174,7 @@ Tools that make your life easier
 	    ``RPC is great for actions (a collection of functions).``
 
 	    ``REST is good for modeling the resource domain with CRUD.``
+
+#. linux filesystem hierarchy
+
+    https://www.tldp.org/LDP/Linux-Filesystem-Hierarchy/html/
