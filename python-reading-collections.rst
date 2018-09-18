@@ -250,12 +250,33 @@ Collected useful posts about Python
 
         http://quantmind.github.io/pulsar/design.html#actors
 
-
-
 #. config file parser in Python (another option would be environment variables, but this is more manageable in the case ...... I'm using.)
 
     https://www.decalage.info/python/configparser
 
+#. Python compiling
+    
+    http://www.freehackers.org/Packaging_a_python_program
+
+    PyInstaller
+
+        https://github.com/pyinstaller/pyinstaller
+
+            ``pyinstaller --onefile your.py`` is probably the most useful command.
+
+    Use a trick not to compile the file and still use it as executable is declare header interpreter. One example
+
+        ``#! /usr/local/bin/python`` ## ``/usr/local/bin`` is where user installed applications locate
+
+        .. code-block:: python
+
+            #! /usr/local/bin/python
+
+            print "hello world"
+
+        You may need to ``chmod 777 helloworld.py`` to enable the executation permission. (-rwe permissions are 3 digit binary codes, 7 means every all the positions are set to 1; the three "7"s here stand for permission for user/owner, group, and others. )
+
+        Then ``>>>./helloworld.py`` this will work for you! 
 
 
 
