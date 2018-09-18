@@ -31,12 +31,19 @@ Collected useful posts about Python
 #. python function signature
     https://emptysqua.re/blog/copying-a-python-functions-signature/
 
-#. python command line arguments parsing libraries
-    https://realpython.com/comparing-python-command-line-parsing-libraries-argparse-docopt-click/
+#. Python Command Line Interface (CLI)
 
-    And here is why ``click`` is better than argparser :)
+    python command line arguments parsing libraries
+        
+        https://realpython.com/comparing-python-command-line-parsing-libraries-argparse-docopt-click/
+
+    ``click``
 
         https://dbader.org/blog/python-commandline-tools-with-click
+
+    And here is why ``click`` is better than ``argparser`` (I used ``argparser`` before. This is ``click`` opinion)
+
+        http://click.pocoo.org/6/why/
 
 #. priority queue
     http://www.bogotobogo.com/python/python_PriorityQueue_heapq_Data_Structure.php
