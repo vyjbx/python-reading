@@ -34,6 +34,10 @@ Collected useful posts about Python
 #. python command line arguments parsing libraries
     https://realpython.com/comparing-python-command-line-parsing-libraries-argparse-docopt-click/
 
+    And here is why ``click`` is better than argparser :)
+
+        https://dbader.org/blog/python-commandline-tools-with-click
+
 #. priority queue
     http://www.bogotobogo.com/python/python_PriorityQueue_heapq_Data_Structure.php
 
