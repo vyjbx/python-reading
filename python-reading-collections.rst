@@ -283,6 +283,10 @@ Collected useful posts about Python
 
         Then ``>>>./helloworld.py`` this will work for you! 
 
+#. python design patterns
+
+    https://github.com/faif/python-patterns
+    
 
 
 
