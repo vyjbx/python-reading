@@ -182,3 +182,8 @@ Tools that make your life easier
 #. how to build an AI sandbox
 
     https://blog.prolego.io/how-to-build-an-ai-sandbox-3a95e9507379
+
+#. **CHEAT SHEETS!** a good collection of cheat sheets covers pyspark, pandas, sklearn, scipy, matplotlib, keras, neural nets, with link to orginal resources, image + reading.
+
+    https://startupsventurecapital.com/essential-cheat-sheets-for-machine-learning-and-deep-learning-researchers-efb6a8ebd2e5
+
