@@ -178,3 +178,7 @@ Tools that make your life easier
 #. linux filesystem hierarchy
 
     https://www.tldp.org/LDP/Linux-Filesystem-Hierarchy/html/
+
+#. how to build an AI sandbox
+
+    https://blog.prolego.io/how-to-build-an-ai-sandbox-3a95e9507379
