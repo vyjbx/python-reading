@@ -41,6 +41,8 @@ Collected useful posts about Python
 
         https://dbader.org/blog/python-commandline-tools-with-click
 
+        http://click.pocoo.org/5/
+
     And here is why ``click`` is better than ``argparser`` (I used ``argparser`` before. This is ``click`` opinion)
 
         http://click.pocoo.org/6/why/
@@ -254,7 +256,7 @@ Collected useful posts about Python
 
     https://www.decalage.info/python/configparser
 
-#. Python compiling
+#. Python code freeze
     
     http://www.freehackers.org/Packaging_a_python_program
 
@@ -264,7 +266,10 @@ Collected useful posts about Python
 
             ``pyinstaller --onefile your.py`` is probably the most useful command.
 
-    Use a trick not to compile the file and still use it as executable is declare header interpreter. One example
+        https://hackernoon.com/the-one-stop-guide-to-easy-cross-platform-python-freezing-part-1-c53e66556a0a
+
+    
+    Use a trick not to freeze the file but use it as executable using the system compiler: Declare header interpreter. One example
 
         ``#! /usr/local/bin/python`` ## ``/usr/local/bin`` is where user installed applications locate
 
