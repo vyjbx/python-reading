@@ -293,9 +293,54 @@ Collected useful posts about Python
 
         https://www.dabeaz.com/coroutines/Coroutines.pdf
 
+             ``Coroutines are generators. If you use *yield* more generally (since python 2.5), you get a coroutine. Coroutines do more than just *generate* values, they can consume values *sent* to them by *(yield)* expression. Generators and generator pipes **push** data, while coroutines **push** data by send method.``
+
     coroutines are generators
 
         https://softwareengineering.stackexchange.com/questions/352588/when-to-use-coroutine-over-generator
+
+#. generators
+
+    **generators** are lazy. Laziness is a nightmare for debug. Wrapping a generator in a function (or obviously a decorator). Example
+
+        .. code:: python
+
+            def multipe(n):
+                if n <= 0:
+                     raise ValueError('value should be positive')
+
+                def m(n):
+                    p = n
+                    while True:
+                        yield p
+                            p += n
+                return m(n)
+
+    Use a decorator to check conditions
+
+        .. code:: python
+
+            def condition(n):
+                if n <= 0:
+                    raise ValueError('value should be positive')
+
+            def decor(condition):
+                def true_decor(generator_f):
+                    def f(*args, **kwargs):
+                        condition(*args, **kwargs)
+                        p = generator_f(*args, **kwargs)
+                        return p
+                    return f 
+                return true_decor
+
+            @decor(condition)
+            def multiple(n):
+                p = n
+                while True:
+                    yield p
+                    p += n
+
+        http://xion.io/post/code/python-generator-args.html
 
 
 
