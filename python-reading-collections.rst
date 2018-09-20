@@ -286,7 +286,18 @@ Collected useful posts about Python
 #. python design patterns
 
     https://github.com/faif/python-patterns
-    
+
+#. coroutines 
+
+    good intro on what they are
+
+        https://www.dabeaz.com/coroutines/Coroutines.pdf
+
+    coroutines are generators
+
+        https://softwareengineering.stackexchange.com/questions/352588/when-to-use-coroutine-over-generator
+
+
 
 
 
