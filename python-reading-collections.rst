@@ -342,8 +342,15 @@ Collected useful posts about Python
 
         http://xion.io/post/code/python-generator-args.html
 
+#. The inside story of python new style classes (with object) by von Rossum
+    history of python, bound method, unbound method, and method-wrapper
+
+    http://python-history.blogspot.com/2010/06/inside-story-on-new-style-classes.html
 
 
+#. generator and iterator, explained __iter__, __next__
+
+    https://stackoverflow.com/questions/40255096/next-in-generators-and-iterators-and-what-is-a-method-wrapper
 
 
 
