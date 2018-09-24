@@ -28,3 +28,11 @@ Good Things about Scala, everything
 4. Type erasure in Scala (JVM)
 
     https://blog.knoldus.com/type-erasure-in-scala/
+
+5. high kind types (following the scala type erasure)
+
+    https://typelevel.org/blog/2016/08/21/hkts-moving-forward.html
+
+6. defunctionalization: This is not specifically about Scala
+
+    http://www.brics.dk/RS/01/23/BRICS-RS-01-23.pdf
