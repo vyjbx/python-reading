@@ -191,6 +191,10 @@ Tools that make your life easier
 
     **zeppelin is good**
 
-#. Blue-Green model deployment
+#. Art of model deployment: covering blue-green, canary, and A/B testing (basically adding a router before the model endpoint) and using 
 
-    https://docs.cloudfoundry.org/devguide/deploy-apps/blue-green.html
+    https://medium.com/@julsimon/mastering-the-mystical-art-of-model-deployment-c0cafe011175
+
+    What is Blue-Green model deployment
+
+        https://docs.cloudfoundry.org/devguide/deploy-apps/blue-green.html
