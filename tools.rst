@@ -187,3 +187,10 @@ Tools that make your life easier
 
     https://startupsventurecapital.com/essential-cheat-sheets-for-machine-learning-and-deep-learning-researchers-efb6a8ebd2e5
 
+#. zeppelin
+
+    **zeppelin is good**
+
+#. Blue-Green model deployment
+
+    https://docs.cloudfoundry.org/devguide/deploy-apps/blue-green.html
