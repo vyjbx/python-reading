@@ -198,3 +198,15 @@ Tools that make your life easier
     What is Blue-Green model deployment
 
         https://docs.cloudfoundry.org/devguide/deploy-apps/blue-green.html
+
+    Sagemaker ML model deployment
+
+        From Sagemaker documents (https://docs.aws.amazon.com/sagemaker/latest/dg/sagemaker-dg.pdf#gs)
+            
+            ``You can deploy multiple variants of a model to the same Amazon SageMaker HTTPS endpoint. This is useful for testing variations of a model in production. For example, suppose that you've deployed a model into production. You want to test a variation of the model by directing a small amount of traffic, say 5%, to the new model. To do this, create an endpoint configuration that describes both variants of the model. You specify the ProductionVariant in your request to the CreateEndPointConfig. For more information, see ProductionVariant (p. 461).``
+
+
+#. SageMaker, Lambda to make a quick ML demo framework
+
+    https://aws.amazon.com/blogs/machine-learning/build-a-serverless-frontend-for-an-amazon-sagemaker-endpoint/
+
