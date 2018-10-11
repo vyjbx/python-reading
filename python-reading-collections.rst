@@ -352,6 +352,10 @@ Collected useful posts about Python
 
     https://stackoverflow.com/questions/40255096/next-in-generators-and-iterators-and-what-is-a-method-wrapper
 
+#. tornado coroutines vs async: ``yield`` vs ``yield from``
+
+    https://github.com/universe-proton/universe-topology/issues/14
+
 
 
 

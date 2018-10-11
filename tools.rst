@@ -106,6 +106,10 @@ Tools that make your life easier
 
 		    http://goinbigdata.com/docker-run-vs-cmd-vs-entrypoint/
 
+        Dockerfile as a wrapper on docker run + docker commit
+
+            https://stackoverflow.com/questions/17891981/docker-run-cd-does-not-work-as-expected 
+
 	#. A few posts about docker
 
 	    http://www.johnzaccone.io/author/john/
@@ -113,6 +117,23 @@ Tools that make your life easier
 	#. docker swarm vs. kubernetes (micro-service orchestration platforms)
 
 	    https://platform9.com/blog/kubernetes-docker-swarm-compared/
+
+    #. docker -v vs --mount
+
+        ''Mounting into a non-empty directory on the container
+        If you bind-mount into a non-empty directory on the container, the directory’s existing contents are obscured by the bind mount. This can be beneficial, such as when you want to test a new version of your application without building a new image. However, it can also be surprising and this behavior differs from that of docker volumes.
+
+        This example is contrived to be extreme, but replaces the contents of the container’s /usr/ directory with the /tmp/ directory on the host machine. In most cases, this would result in a non-functioning container.''
+
+        https://docs.docker.com/storage/bind-mounts/#mounting-into-a-non-empty-directory-on-the-container
+
+    #. docker container to host communication
+
+        mac: host.docker.internal from 18.03
+
+        linux: host
+
+        https://dev.to/bufferings/access-host-from-a-docker-container-4099
 
 #. AWS AMI linux
 
@@ -209,4 +230,11 @@ Tools that make your life easier
 #. SageMaker, Lambda to make a quick ML demo framework
 
     https://aws.amazon.com/blogs/machine-learning/build-a-serverless-frontend-for-an-amazon-sagemaker-endpoint/
+
+#. send data to server through HTML: form, application/json, application/x-www-form-urlencoded
+
+    https://medium.com/@mohamedraja_77/content-type-x-www-form-urlencoded-form-data-and-json-e17c15926c69
+
+    https://stackoverflow.com/questions/26723467/what-is-the-difference-between-form-data-x-www-form-urlencoded-and-raw-in-the-p/26730839
+
 
