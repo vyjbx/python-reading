@@ -55,6 +55,13 @@ Algorithm Collections
 #. H2O Python API quick intro
     https://www.h2o.ai/wp-content/uploads/2018/01/Python-BOOKLET.pdf
 
+
+#. A good collection of ResNets and its variations (or HighwayNets as a broader term) with reference link to the original paper!
+
+    https://towardsdatascience.com/an-overview-of-resnet-and-its-variants-5281e2f56035
+
+
+
 .. [Approximated_KNN] http://mccormickml.com/2017/10/13/product-quantizer-tutorial-part-1/
 .. [xgboost] https://arxiv.org/pdf/1603.02754.pdf
 
