@@ -237,4 +237,40 @@ Tools that make your life easier
 
     https://stackoverflow.com/questions/26723467/what-is-the-difference-between-form-data-x-www-form-urlencoded-and-raw-in-the-p/26730839
 
+#. Microservice mesh: Istio
 
+    ``Using Istio’s traffic management model essentially decouples traffic flow and infrastructure scaling, letting you specify via Pilot what rules they want traffic to follow rather than which specific pods/VMs should receive traffic - Pilot and intelligent Envoy proxies look after the rest.``
+
+    https://istio.io/docs/concepts/traffic-management/
+
+    https://blog.envoyproxy.io/service-mesh-data-plane-vs-control-plane-2774e720f7fc
+
+    https://www.abhishek-tiwari.com/a-sidecar-for-your-service-mesh/
+
+#. Protobuf: with python examples (metaprogramming, ``protoc``, etc.)
+
+    https://developers.google.com/protocol-buffers/docs/overview
+
+    https://www.datadoghq.com/blog/engineering/protobuf-parsing-in-python/
+
+#. what is k8s?
+
+    ``Kubernetes and containers are here to stay.``
+
+    https://itnext.io/what-is-kubernetes-c9c5bedb51f0
+
+#. cassandra compaction
+
+    https://www.datastax.com/dev/blog/leveled-compaction-in-apache-cassandra
+
+    read, write to cassandra
+
+        https://docs.datastax.com/en/cassandra/3.0/cassandra/dml/dmlAboutReads.html
+
+    sstable (sorted string table) storage format
+
+        http://distributeddatastore.blogspot.com/2013/08/cassandra-sstable-storage-format.html
+
+    difference between ``UDPATE`` and ``INSERT`` in cassandra
+
+        https://stackoverflow.com/questions/16532227/difference-between-update-and-insert-in-cassandra

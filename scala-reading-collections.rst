@@ -36,3 +36,7 @@ Good Things about Scala, everything
 6. defunctionalization: This is not specifically about Scala
 
     http://www.brics.dk/RS/01/23/BRICS-RS-01-23.pdf
+
+#. scala object vs. class 
+
+    https://blog.knoldus.com/class-and-object-keyword-in-scala-programming/

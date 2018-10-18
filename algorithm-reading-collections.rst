@@ -61,6 +61,13 @@ Algorithm Collections
     https://towardsdatascience.com/an-overview-of-resnet-and-its-variants-5281e2f56035
 
 
+#. Kalman filter without math depth (but a lot of figures)
+
+    https://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/
+
+#. Bloom filter: is it possibly in a set with limited core memory. Bloom filter is used in databases such as Cassandra
+
+    https://en.wikipedia.org/wiki/Bloom_filter
 
 .. [Approximated_KNN] http://mccormickml.com/2017/10/13/product-quantizer-tutorial-part-1/
 .. [xgboost] https://arxiv.org/pdf/1603.02754.pdf
