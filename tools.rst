@@ -135,6 +135,22 @@ Tools that make your life easier
 
         https://dev.to/bufferings/access-host-from-a-docker-container-4099
 
+    #. docker resource change dynamically: through docer, or systemd, or cgroup config files
+
+        https://goldmann.pl/blog/2014/09/11/resource-management-in-docker/#_changing_the_shares_value_for_a_running_container
+
+            ``sudo systemctl set-property docker-4be96b853089bc6044b29cb873cac460b429cfcbdd0e877c0868eb2a901dbf80.scope CPUShares=512``
+
+        https://forums.docker.com/t/dynamic-changing-memory-limitation/14460/2
+
+        The docker update command dynamically updates container configuration.
+
+            ``The docker update command dynamically updates container configuration.``
+
+        linux cgroups
+
+            https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/resource_management_guide/ch01
+
 #. AWS AMI linux
 
     https://docs.aws.amazon.com/AmazonECR/latest/userguide/amazon_linux_container_image.html
@@ -274,3 +290,55 @@ Tools that make your life easier
     difference between ``UDPATE`` and ``INSERT`` in cassandra
 
         https://stackoverflow.com/questions/16532227/difference-between-update-and-insert-in-cassandra
+
+#. about kafka (not franz kafka)
+    
+    kafka assigner
+
+        https://medium.com/@anyili0928/what-i-have-learned-from-kafka-partition-assignment-strategy-799fdf15d3ab
+
+    kafka consumers and rebalancing
+
+        https://www.oreilly.com/library/view/kafka-the-definitive/9781491936153/ch04.html
+
+    kafka partitions
+
+#. kubernetes
+
+    what are pods? they share the same namespace, but not necessarily the same cgroup. (containers are not containers in a box. they are processes isolated from each other using linux namespace and cgroups. both can be used independently. such as, two containers can have the same namespace, so that they are "local" to each other, while they have different cgroups which grant them different limits to the system.)
+
+        https://www.ianlewis.org/en/what-are-kubernetes-pods-anyway
+
+#. SQL server: server side cursor vs. client side cursor
+
+    https://msdn.microsoft.com/en-us/library/aa266531(v=vs.60).aspx
+
+    https://www.sqlservercentral.com/Forums/Topic416894-8-1.aspx
+
+    https://stackoverflow.com/questions/33704316/im-confused-about-mysqldb-server-side-cursor-and-client-cursor
+
+#. s3cmd ls, get, put, sync; single file vs. directory ``s3cmd put dir1/ s3://something`` vs ``s3cmd put dir1 s3://something``
+
+    https://s3tools.org/s3cmd-howto
+
+    https://s3tools.org/usage
+
+#. s3cmd, bot, aws cli comparison
+
+    https://stackoverflow.com/questions/26326408/difference-between-s3cmd-boto-and-aws-cli
+
+#. linux cgroups (subsystems, hierarchies, cgroups, and tasks)
+
+    https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/resource_management_guide/ch01
+
+        cgorups are orgnized heirarchically, just like processes. Child cgroups inherit from parent cgroups when initialized. 
+
+        The four rulls:
+
+            1. a single hierarchy can have one or more subsystems (resource).
+
+            2. if a single subsystem is attached to multiple hierarchies, it cannot co-exist with another subsystem.
+
+            3. in one hierarchy, one task can only exist in one cgroup. 
+
+            4. when a process spawns a child process, the child process inherits the cgroups from the parent initially. The two process then become independent of each other and can be mounted to different cgroups. 

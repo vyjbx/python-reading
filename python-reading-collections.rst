@@ -356,6 +356,10 @@ Collected useful posts about Python
 
     https://github.com/universe-proton/universe-topology/issues/14
 
+#. the history of python blog by Guido van Rossum
+
+    http://python-history.blogspot.com/
+
 
 
 

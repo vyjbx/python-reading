@@ -40,3 +40,13 @@ Good Things about Scala, everything
 #. scala object vs. class 
 
     https://blog.knoldus.com/class-and-object-keyword-in-scala-programming/
+
+#. identify which ``main`` to use in ``sbt run`` in build.sbt
+
+    https://alvinalexander.com/scala/sbt-how-specify-main-method-class-to-run-in-project
+
+    add a line like this to your build.sbt file
+
+    .. code:: scala
+
+        mainClass in (Compile, run) := Some("com.module.object")
