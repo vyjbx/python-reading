@@ -69,6 +69,10 @@ Algorithm Collections
 
     https://en.wikipedia.org/wiki/Bloom_filter
 
+#. grow regression trees
+
+    http://www.stat.cmu.edu/~cshalizi/350-2006/lecture-10.pdf
+
 .. [Approximated_KNN] http://mccormickml.com/2017/10/13/product-quantizer-tutorial-part-1/
 .. [xgboost] https://arxiv.org/pdf/1603.02754.pdf
 
