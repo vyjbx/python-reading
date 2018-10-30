@@ -84,14 +84,22 @@ Algorithm Collections
 
     https://www.kaggle.com/c/home-credit-default-risk/discussion/58950
 
-    
-    ``SHAP value, a unified approach to estimate feature importance``
+ #. SHAP value, a unified approach to estimate feature importance
+
     ``Yet the gain method is biased to attribute more importance to lower splits.``
     ``Well…to avoid using them one approach is to first include them in your model and then prune the part of the model that uses them. But just leaving them out of the model could cause the model to “recover” them by just using another correlated surrogate variable.``
 
-    https://towardsdatascience.com/interpretable-machine-learning-with-xgboost-9ec80d148d27
+	    https://towardsdatascience.com/interpretable-machine-learning-with-xgboost-9ec80d148d27
 
-    https://github.com/slundberg/shap
+	    https://github.com/slundberg/shap
+
+    More on what SHAP is and how to calculate it on high level
+
+	    https://medium.com/civis-analytics/demystifying-black-box-models-with-shap-value-analysis-3e20b536fc80
+
+    Code to calculate SHAP value
+
+        https://www.kaggle.com/dansbecker/shap-values
 
 .. [Approximated_KNN] http://mccormickml.com/2017/10/13/product-quantizer-tutorial-part-1/
 .. [xgboost] https://arxiv.org/pdf/1603.02754.pdf
