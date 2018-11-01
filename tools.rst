@@ -151,6 +151,16 @@ Tools that make your life easier
 
             https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/resource_management_guide/ch01
 
+    #. ENV vs ARG
+        
+        https://stackoverflow.com/questions/41916386/arg-or-env-which-one-to-use-in-this-case
+
+            The ARG instruction defines a variable that users can pass at build-time to the builder with the docker build command using the --build-arg <varname>=<value> flag.
+
+            The ENV instruction sets the environment variable <key> to the value <value>. The environment variables set using ENV will persist when a container is run from the resulting image.
+
+        
+
 #. AWS AMI linux
 
     https://docs.aws.amazon.com/AmazonECR/latest/userguide/amazon_linux_container_image.html
@@ -327,6 +337,13 @@ Tools that make your life easier
 
     https://stackoverflow.com/questions/26326408/difference-between-s3cmd-boto-and-aws-cli
 
+    s3cmd access multiple buckets with different confidentials
+
+        ``s3cmd --configure -c .s3cfg_bucketname`` to set up a configuration file
+        ``s3cmd -c .s3cfg_bucketname ls/put/get/sync s3_bucketname`` to use the specified configuration file to display or apply on the s3 bucket
+
+        https://stackoverflow.com/questions/18495329/access-multiple-buckets-in-s3
+
 #. linux cgroups (subsystems, hierarchies, cgroups, and tasks)
 
     https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/resource_management_guide/ch01
@@ -341,4 +358,16 @@ Tools that make your life easier
 
             3. in one hierarchy, one task can only exist in one cgroup. 
 
-            4. when a process spawns a child process, the child process inherits the cgroups from the parent initially. The two process then become independent of each other and can be mounted to different cgroups. 
+            4. when a process spawns a child process, the child process inherits the cgroups from the parent initially. The two process then become independent of each other and can be mounted to different cgroups.
+
+
+#. dask
+
+    https://towardsdatascience.com/why-every-data-scientist-should-use-dask-81b2b850e15b 
+
+    http://docs.dask.org/en/latest/_downloads/daskcheatsheet.pdf
+
+#. linux && vs ; vs &
+
+    The && operator is a boolean AND operator: if the left side returns a non-zero exit status, the operator returns that status and does not evaluate the right side (it short-circuits), otherwise it evaluates the right side and returns its exit status. This is commonly used to make sure that command2 is only run if command1 ran successfully. While & causes the command to be run in the background.
+

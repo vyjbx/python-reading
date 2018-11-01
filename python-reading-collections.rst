@@ -360,6 +360,10 @@ Collected useful posts about Python
 
     http://python-history.blogspot.com/
 
+#. decorators vs metaclass
+
+    https://jfine-python-classes.readthedocs.io/en/latest/decorators.html
+
 
 
 
