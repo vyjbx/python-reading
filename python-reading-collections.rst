@@ -137,6 +137,12 @@ Collected useful posts about Python
 
     The second parameter `jack` had no effect at all.
 
+
+    #. python metaclass and metaprogramming
+
+        https://blog.ionelmc.ro/2015/02/09/understanding-python-metaclasses/
+
+
 #. Python **attributes**, how the object searchs for and accesses attributes. This is a good reading and explains a lot of things! **Python is all about attributes.**
     https://codesachin.wordpress.com/2016/06/09/the-magic-behind-attribute-access-in-python/
 
