@@ -50,3 +50,7 @@ Good Things about Scala, everything
     .. code:: scala
 
         mainClass in (Compile, run) := Some("com.module.object")
+
+#. actor vs future for concurrency using threading
+
+    https://www.chrisstucchio.com/blog/2013/actors_vs_futures.html

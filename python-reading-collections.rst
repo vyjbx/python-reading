@@ -370,7 +370,13 @@ Collected useful posts about Python
 
     https://jfine-python-classes.readthedocs.io/en/latest/decorators.html
 
+#. Thread.join and Thread.daemon
 
+    https://stackoverflow.com/questions/15085348/what-is-the-use-of-join-in-python-threading
+
+#. using coroutine, async, and multithreading to achieve concurrency
+
+    https://www.reddit.com/r/learnpython/comments/5qwm5h/asyncio_for_dummies/dd432ke/
 
 
 

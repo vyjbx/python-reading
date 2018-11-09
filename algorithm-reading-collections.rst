@@ -84,7 +84,12 @@ Algorithm Collections
 
     https://www.kaggle.com/c/home-credit-default-risk/discussion/58950
 
- #. SHAP value, a unified approach to estimate feature importance
+#. a shallow boosting algorithm comparison: xgboost, lightboost, and catboost
+
+    https://towardsdatascience.com/catboost-vs-light-gbm-vs-xgboost-5f93620723db
+
+
+#. SHAP value, a unified approach to estimate feature importance
 
     ``Yet the gain method is biased to attribute more importance to lower splits.``
     ``Well…to avoid using them one approach is to first include them in your model and then prune the part of the model that uses them. But just leaving them out of the model could cause the model to “recover” them by just using another correlated surrogate variable.``

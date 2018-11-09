@@ -371,3 +371,6 @@ Tools that make your life easier
 
     The && operator is a boolean AND operator: if the left side returns a non-zero exit status, the operator returns that status and does not evaluate the right side (it short-circuits), otherwise it evaluates the right side and returns its exit status. This is commonly used to make sure that command2 is only run if command1 ran successfully. While & causes the command to be run in the background.
 
+#. postgres vs mysql
+
+    https://blog.panoply.io/postgresql-vs.-mysql
