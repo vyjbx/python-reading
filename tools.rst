@@ -374,3 +374,11 @@ Tools that make your life easier
 #. postgres vs mysql
 
     https://blog.panoply.io/postgresql-vs.-mysql
+
+#. WSL windows subsystem linux
+
+    https://blogs.msdn.microsoft.com/wsl/2016/06/15/wsl-file-system-support/
+
+#. linux EA (Extended file Attributes)
+
+    http://www.linux-mag.com/id/8741/
